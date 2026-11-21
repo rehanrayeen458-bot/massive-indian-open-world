@@ -33,7 +33,7 @@ jobs:
       - name: Install packages
         run: |
           npm install
-          npm install @capacitor/android
+          npm install @capacitor/android@^7
 
       - name: Build game
         run: npm run build
